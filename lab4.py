@@ -35,7 +35,7 @@ for i in range(N):
 start = time.time()
 F_I = [0 for i in range(int(N/2))]
 F_II = [0 for i in range(int(N/2))]
-F = [0 for i in range(int(N))]          #Функція паслі швидкої збірки
+F = [0 for i in range(int(N))]          #Функція після швидкої збірки
 
 for p in range(int(N/2)):
     for k in range(int(N/2)):
